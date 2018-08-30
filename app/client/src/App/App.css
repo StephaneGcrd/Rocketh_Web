@@ -1,0 +1,268 @@
+body {
+
+  font-family: 'Quicksand', sans-serif;
+  background-color: #EEEEEE;
+}
+
+html {
+    position:relative;
+    min-height: 100%;
+}
+
+button{
+  border-style: none;
+}
+.desc_input{
+  height: 8em;
+  width: 100%;
+}
+.main-heading {
+  font-size: 40px;
+}
+.secondary-heading {
+  font-size: 20px;
+}
+.photo {
+  widows: 300px;
+  height: 300px;
+}
+.paragraph {
+  font-size: 14px;
+  color: black;
+}
+.container_white2{
+  background: white;
+  margin: 6em 6em 6em 6em;
+  padding: 1em 2em 2em 2em;
+  border-radius: 3px;
+  box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.2);
+
+
+
+}
+.bt_Red_form{
+  background: #B83731;
+  border-radius: 3px;
+  font-weight: 500;
+  font-size: 1.3em;
+  margin: 0em 0.5em 0em 0em;
+  padding: 0.3em 0.5em 0.3em 0.5em;
+  color: white;
+  box-shadow: 2px 3px 15px #B83731;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease; /* Safari */
+    transition: all 0.2s ease;
+}
+
+.bt_Red_form:hover{
+    box-shadow: 2px 3px 25px #B83731;
+}
+
+.bt_Red_form:active{
+    background: #852a25;
+}
+.container_white{
+  background: white;
+  margin: 12em 8vw 0em 8vw;
+  padding: 2em 2em 2em 2em;
+  border-radius: 0px;
+  box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.bt_val{
+  background: #B83731;
+  border-radius: 3px;
+  font-weight: 500;
+  font-size: 1em;
+  margin: 0em 0.5em 0em 0.5em;
+  padding: 0.2em 0.7em 0.2em 0.7em;
+  color: white;
+}
+
+.bt_red_cancel{
+  background: #B83731;
+  border-radius: 3px;
+  position: relative;
+  top: 50px;
+  right: 100px;
+  font-weight: 500;
+  font-size: 1.3em;
+  margin: 0em 0.5em 0em 0.5em;
+  padding: 0.3em 0.5em 0.3em 0.5em;
+  color: white;
+}
+.center_text{
+  text-align: center;
+}
+
+.justify{
+  text-align: justify;
+}
+.footer_rocketh{
+  background: #B83731;
+  color: white;
+  padding: 3em 1em 1em 1em;
+  width: 100%;
+  height: 200px;
+  position: absolute;
+left: 0;
+bottom: 0;
+
+}
+
+.Wrapper{
+  margin-bottom: 250px;
+  margin-top: 8em;
+}
+.infos{
+  text-align: center;
+}
+.copyright{
+  text-align: right;
+  margin-right: 1em;
+}
+
+.ball_red{
+  background-color: red;
+  display: inline-block;
+  border-radius: 10px;
+  width: 10px;
+  height: 10px;
+}
+
+.ball_orange{
+  background-color: orange;
+  display: inline-block;
+  border-radius: 10px;
+  width: 10px;
+  height: 10px;
+}
+
+.ball_green{
+  background-color: green;
+  display: inline-block;
+  border-radius: 10px;
+  width: 10px;
+  height: 10px;
+}
+
+.ball_yellow{
+  background-color: yellow;
+  display: inline-block;
+  border-radius: 10px;
+  width: 10px;
+  height: 10px;
+}
+
+.step_act{
+ background: #dd1a1a;
+ border-radius: 3px;
+ font-weight: 500;
+ font-size: 1em;
+ margin: 0em 1em 0em 1em;
+ padding: 0.5em 1em 0.5em 1em;
+ color: white;
+}
+
+.step_pas{
+ background: white;
+ border-radius: 3px;
+ font-weight: 500;
+ font-size: 1em;
+ margin: 0em 1em 0em 1em;
+ padding: 0.5em 1em 0.5em 1em;
+ color: #dd1a1a;
+}
+
+.nav-stat{
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  padding: 0;
+
+}
+
+.section{
+  padding: 0;
+}
+
+.photo_profil{
+    overflow:hidden;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius:100px;
+    width:150px;
+
+    margin-bottom: 1.2em;
+}
+
+.input-file {
+    display: none;
+     opacity:0;
+}
+
+.border_nav{
+  border-left: 1px solid grey;
+}
+
+
+
+.bt_rock{
+  background: #B83731;
+  border-radius: 1px;
+  font-weight: 100;
+  font-size: 1em;
+  margin: 0em 0.5em 0em 0em;
+  padding: 0.3em 0.5em 0.3em 0.5em;
+  color: white;
+  box-shadow: 1px 2px 5px #B83731;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease; /* Safari */
+  transition: all 0.2s ease;
+
+}
+.alert{
+  background: white;
+  height: 20em;
+  width: 20em;
+  border-radius: 0px;
+  box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.2);
+}
+
+.bt_inv{
+    background: transparent;
+    border: none !important;
+}
+
+.alert{
+  background: white;
+  height: 20em;
+  width: 20em;
+  border-radius: 0px;
+  box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.2);
+}
+.grille {
+ border:1px dotted black;
+ }
+
+
+.image_icone{
+  width: 15%;
+}
+.icone_logo{
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.row_tab{
+  margin: 0;
+  padding: 0;
+}
+.row_tab_titre{
+  margin-top: 2em;
+  padding: 0;
+}
+.row_tab_nav{
+  margin-bottom: 2em;
+}

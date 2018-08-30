@@ -1,0 +1,54 @@
+.Modulesearch{
+    height:  30em;
+    background-image: url("../../public/back_search.jpeg");
+    position: relative;
+}
+
+.slogan{
+  color:white;
+  text-align: center;
+  font-size: 2em;
+  padding-top: 2.5em;
+  font-weight: 500;
+}
+
+.search_container{
+  position: relative;
+    bottom: 2em;
+    right: 1em;
+}
+
+.logo_petit{
+  width: 1em;
+  padding: 0em 0.1em 0em 0.1em;
+}
+
+.icone_part{
+  width: 10em;
+  margin: auto;
+  display: block;
+}
+
+
+.red_bar{
+  height: 4px;
+  background-color: #B83731;
+  width: 32em;
+  margin: auto;
+  border-radius: 10px;
+  margin-bottom: 2em;
+}
+
+.underline_red{
+  text-align: center;
+  border-bottom-style: solid;
+  border-width: 4px;
+  padding-bottom: 0.5em;
+  border-color: #B83731;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.container_white_full{
+  background: white;
+}
